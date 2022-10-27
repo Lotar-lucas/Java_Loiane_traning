@@ -2,32 +2,32 @@ package curso_java_basico_exercicios_agenda;
 
 public class Contato {
 	private String name;
-	private String numero;
-	private String Email;
+	private String telefone;
+	private String email;
 	
 	
 	public String getEmail() {
-		return Email;
+		return email;
 	}
 
 	public void setEmail(String email) {
-		Email = email;
+		this.email = email;
 	}
 
 	public String getName() {
 		return name;
 	}
 	
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String nameContato) {
+		this.name = nameContato;
 	}
 	
 	public String getNumero() {
-		return numero;
+		return this.telefone;
 	}
 	
-	public void setNumero(String numero) {
-		this.numero = numero;
+	public void setNumero(String numeroContato) {
+		this.telefone = numeroContato;
 	}
 	
 
