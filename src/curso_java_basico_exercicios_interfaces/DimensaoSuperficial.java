@@ -4,4 +4,6 @@ public interface DimensaoSuperficial {
 
 	double calcularVolume();
 
+	double calcularArea();
+
 }
